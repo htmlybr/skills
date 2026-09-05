@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "htmly": {
+      "type": "http",
+      "url": "https://htmly.com.br/api/mcp"
+    }
+  }
+}

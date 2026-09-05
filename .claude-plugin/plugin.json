@@ -1,0 +1,11 @@
+{
+  "name": "htmly",
+  "displayName": "HTMLy",
+  "description": "Publique sites HTML estáticos em segundos no HTMLy (htmly.com.br) direto da conversa: servidor MCP com OAuth mais a skill htmly-publish. Publish static HTML sites from Claude in seconds.",
+  "version": "1.0.0",
+  "author": { "name": "HTMLy", "url": "https://htmly.com.br" },
+  "homepage": "https://htmly.com.br/mcp",
+  "repository": "https://github.com/htmlybr/skills",
+  "license": "MIT",
+  "keywords": ["hosting", "static-site", "html", "publish", "deploy", "mcp", "brasil", "pt-br"]
+}

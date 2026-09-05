@@ -1,0 +1,11 @@
+{
+  "name": "htmly",
+  "version": "1.0.0",
+  "description": "Publish static HTML sites on HTMLy (htmly.com.br) from Gemini CLI. Remote MCP server with OAuth plus the htmly-publish skill.",
+  "mcpServers": {
+    "htmly": {
+      "httpUrl": "https://htmly.com.br/api/mcp"
+    }
+  },
+  "skills": ["skills/htmly-publish"]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "htmlybr-skills",
+  "owner": { "name": "HTMLy", "url": "https://htmly.com.br" },
+  "metadata": {
+    "description": "Publique sites HTML no HTMLy direto do Claude Code: servidor MCP com OAuth mais a skill htmly-publish.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "htmly",
+      "source": "./",
+      "description": "Servidor MCP do HTMLy (htmly.com.br/api/mcp) e a skill htmly-publish para publicar sites estáticos da conversa.",
+      "version": "1.0.0",
+      "category": "deployment",
+      "homepage": "https://htmly.com.br/mcp"
+    }
+  ]
+}
