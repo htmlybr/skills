@@ -1,6 +1,6 @@
-# HTMLy para agentes de IA
+# Hospedagem de site grátis para agentes de IA
 
-Publique sites HTML estáticos em segundos, direto da conversa com o Claude, Cursor, Codex ou Gemini CLI. Este repositório reúne a **skill `htmly-publish`** (formato aberto [Agent Skills](https://agentskills.io)), o **plugin do Claude Code** e a **extensão do Gemini CLI**, todos apontando para o servidor MCP do [HTMLy](https://htmly.com.br).
+Hospedagem de site grátis para agentes de IA: o Claude, o Cursor, o Codex ou o Gemini CLI publicam sites HTML estáticos no HTMLy em segundos, direto da conversa, sem deploy manual. Este repositório reúne a **skill `htmly-publish`** (formato aberto [Agent Skills](https://agentskills.io)), o **plugin do Claude Code** e a **extensão do Gemini CLI**, todos apontando para o servidor MCP do [HTMLy](https://htmly.com.br).
 
 O HTMLy é a hospedagem brasileira para HTML gerado por IA: conta gratuita, PIX, suporte em português. O servidor MCP entrega 4 ferramentas ao agente: `publish_site`, `list_sites`, `get_site` e `read_file`. Publicar é merge por padrão, então uma resposta truncada da IA nunca apaga página nenhuma.
 
@@ -75,7 +75,7 @@ Issues e PRs são bem-vindos. Mudança na skill vale para todos os clientes de u
 
 ## English
 
-**HTMLy** hosts static HTML sites at `{slug}.htmly.com.br` in seconds. The remote MCP server (`https://htmly.com.br/api/mcp`, OAuth) gives any agent four tools: `publish_site` (merge by default, so a truncated bundle never deletes pages), `list_sites`, `get_site` and `read_file`.
+Free static site hosting for AI agents. **HTMLy** hosts static HTML sites at `{slug}.htmly.com.br` in seconds. The remote MCP server (`https://htmly.com.br/api/mcp`, OAuth) gives any agent four tools: `publish_site` (merge by default, so a truncated bundle never deletes pages), `list_sites`, `get_site` and `read_file`.
 
 - Connect in claude.ai: Settings → Connectors → Add custom connector → paste the URL.
 - Claude Code: `claude mcp add --transport http htmly https://htmly.com.br/api/mcp`, then `/mcp`.
