@@ -67,7 +67,7 @@ Não é preciso adicionar: canonical, `og:url`, pixel de analytics (server-side,
 | `expected_file_count` não bate | recontar e reenviar; nada foi alterado |
 | limite de sites do plano | dizer ao usuário quantos cabem e sugerir atualizar um existente |
 | 401 | reconectar (OAuth) ou conferir a API key |
-| 403 "closed beta" | a conta ainda não está liberada; pedir acesso em htmly.com.br/mcp |
+| 403 | o HTMLy bloqueou o MCP para esta conta (suspensa por abuso, por exemplo); orientar a falar com o suporte em htmly.com.br |
 
 ## Conectar
 
